@@ -1,0 +1,6 @@
+Considérons un scénario où vous disposez d'un ensemble de journaux de site web et où vous souhaitez trouver le nombre total de pages vues pour chaque URL.
+Chaque entrée de journal est composée d'un horodatage et d'une URL. 
+L'objectif est de créer un Mapper et un Reducer capables de traiter ces données.
+Dans cet exemple, le mapper lit chaque entrée de journal et émet l'URL avec un compteur égal à 1.
+Le reducer calcule ensuite le nombre total de pages vues pour chaque URL en additionnant les compteurs.
+La sortie affichera chaque URL et le nombre total de pages vues correspondant.
